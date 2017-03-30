@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -e
 
 if [ -z ${PLUGIN_NAMESPACE} ]; then
   PLUGIN_NAMESPACE="default"
